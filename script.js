@@ -1,4 +1,4 @@
- 
+setTheme(localStorage.getItem('theme'));
 
 function setTheme(mode) {
     let cssPath;
@@ -14,4 +14,5 @@ function setTheme(mode) {
             break;
     }
     document.getElementById('theme-style').href = cssPath;
+    localStorage.setItem('theme', mode);
 }
