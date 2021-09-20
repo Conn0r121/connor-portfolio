@@ -10,7 +10,6 @@
     --themeDotBorder: #24292e;
 
     --previewBg: rgb(251, 249, 243, 0.8);
-
     --previewShadow: #f0ead6;
 
     --buttonColor: black;
@@ -99,6 +98,10 @@ h6 { font-size: 16px;}
     align-items: center;
     background-color: var(--mainColor);
     border-radius: 5px 5px 0 0;
+}
+
+#navigation a {
+    color: var(--mainText);
 }
 
 #navigation {
